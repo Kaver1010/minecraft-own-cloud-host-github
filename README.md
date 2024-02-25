@@ -1,3 +1,17 @@
+# HOW TO START A SERVER
+In first bash:
+./start_server.sh
+
+In second bash:
+ngrok tcp 25565
+
+Copy Ip without https:// and play!
+
+
+
+
+
+
 # minecraft-own-cloud-host-github
 Host minecraft on Github
 You can create your own cloud hosting for minecraft
