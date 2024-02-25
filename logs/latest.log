@@ -1,165 +1,227 @@
-[06:48:01] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.7
-[06:48:01] [main/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds...
-[06:48:01] [main/INFO]: Loading 4 mods:
+[08:07:24] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.7
+[08:07:24] [ForkJoinPool-1-worker-2/WARN]: The mod "carpet-shadow" contains invalid entries in its mod json:
+- Invalid entry in person "comment" at line 22 column 16
+[08:07:25] [main/INFO]: Loading 79 mods:
+	- armor-stand-editor 2.1.2+1.20.1
+	   |-- common-protection-api 1.0.0
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   |-- player-data-api 0.2.2+1.19.3
+	   |-- server_translations_api 2.0.0-beta.2+1.19.4-pre2
+	   |    \-- packet_tweaker 0.3.1+23w06a
+	   \-- sgui 1.2.2+1.20
+	- carpet 1.4.112+v230608
+	- carpet-fixes 1.20-1.16.1
+	   \-- conditional-mixin 0.3.1
+	- carpet-shadow 1.10.2-MC1.20.1+
+	- emotecraft 2.2.7-b.build.50
+	   |-- bendy-lib 4.0.0
+	   \-- player-animator 1.0.2-rc1+1.20
+	- fabric-api 0.92.0+1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	   |-- fabric-biome-api-v1 13.0.13+1802ada577
+	   |-- fabric-block-api-v1 1.0.11+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
+	   |-- fabric-blockrenderlayer-v1 1.1.41+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.2+1802ada577
+	   |-- fabric-command-api-v1 1.2.34+f71b366f77
+	   |-- fabric-command-api-v2 2.2.13+1802ada577
+	   |-- fabric-commands-v0 0.2.51+df3654b377
+	   |-- fabric-containers-v0 0.1.64+df3654b377
+	   |-- fabric-content-registries-v0 4.0.11+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.5+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.19+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.0+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.4+1802ada577
+	   |-- fabric-dimensions-v1 2.1.54+1802ada577
+	   |-- fabric-entity-events-v1 1.6.0+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.2+1802ada577
+	   |-- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.40+1802ada577
+	   |-- fabric-item-api-v1 2.1.28+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.12+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
+	   |-- fabric-keybindings-v0 0.2.35+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	   |-- fabric-loot-api-v2 1.2.1+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.45+9e7660c677
+	   |-- fabric-message-api-v1 5.1.9+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.50+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.3+1802ada577
+	   |-- fabric-models-v0 0.4.2+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.11+1802ada577
+	   |-- fabric-networking-v0 0.3.51+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.3+1802ada577
+	   |-- fabric-particles-v1 1.1.2+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.21+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.3+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.1+1802ada577
+	   |-- fabric-renderer-indigo 1.5.1+1802ada577
+	   |-- fabric-renderer-registries-v1 3.2.46+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	   |-- fabric-rendering-v0 1.1.49+df3654b377
+	   |-- fabric-rendering-v1 3.0.8+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.10+1802ada577
+	   |-- fabric-screen-api-v1 2.0.8+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.30+1802ada577
+	   |-- fabric-sound-api-v1 1.0.13+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.4+1802ada577
+	   \-- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabric-language-kotlin 1.10.18+kotlin.1.9.22
+	   |-- org_jetbrains_kotlin_kotlin-reflect 1.9.22
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 1.9.22
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 1.9.22
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 1.9.22
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.23.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.5.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.6.2
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.6.2
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.6.2
 	- fabricloader 0.15.7
 	   \-- mixinextras 0.3.5
 	- java 21
+	- lazydfu 0.1.3
+	- letmedespawn 1.2.0
+	- lithium 0.11.2
 	- minecraft 1.20.1
-[06:48:01] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/minecraft-own-cloud-host-github/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[06:48:11] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[06:48:14] [main/INFO]: Loaded 7 recipes
-[06:48:14] [main/INFO]: Loaded 1271 advancements
-[06:48:15] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[06:48:15] [Server thread/INFO]: Loading properties
-[06:48:15] [Server thread/INFO]: Default game type: SURVIVAL
-[06:48:15] [Server thread/INFO]: Generating keypair
-[06:48:15] [Server thread/INFO]: Starting Minecraft server on *:25565
-[06:48:15] [Server thread/INFO]: Using epoll channel type
-[06:48:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[06:48:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[06:48:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[06:48:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[06:48:15] [Server thread/INFO]: Preparing level "world"
-[06:48:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[06:48:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:43] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:43] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:45] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:45] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:50] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:50] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:51] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:51] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:52] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:52] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:53] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:59] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:48:59] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:05] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:05] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:07] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:07] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:10] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[06:49:14] [Worker-Main-1/INFO]: Preparing spawn area: 1%
-[06:49:14] [Worker-Main-1/INFO]: Preparing spawn area: 4%
-[06:49:15] [Worker-Main-1/INFO]: Preparing spawn area: 22%
-[06:49:15] [Worker-Main-1/INFO]: Preparing spawn area: 42%
-[06:49:18] [Server thread/INFO]: Time elapsed: 49660 ms
-[06:49:18] [Server thread/INFO]: Done (62.326s)! For help, type "help"
-[07:10:12] [Server thread/INFO]: _IKaver_[/[0:0:0:0:0:0:0:1%0]:44016] logged in with entity id 293 at (-28.5, 68.0, 56.5)
-[07:10:12] [Server thread/INFO]: _IKaver_ joined the game
-[07:12:49] [Server thread/INFO]: _IKaver_ lost connection: Disconnected
-[07:12:49] [Server thread/INFO]: _IKaver_ left the game
-[07:13:43] [Server thread/INFO]: _IKaver_[/[0:0:0:0:0:0:0:1%0]:35126] logged in with entity id 707 at (-21.30000001192093, 68.0, 62.305020258637626)
-[07:13:43] [Server thread/INFO]: _IKaver_ joined the game
-[07:14:38] [Server thread/INFO]: PabloBusy[/[0:0:0:0:0:0:0:1%0]:38608] logged in with entity id 931 at (-37.5, 64.0, 56.5)
-[07:14:38] [Server thread/INFO]: PabloBusy joined the game
-[07:14:45] [Server thread/INFO]: [Not Secure] <PabloBusy> 0
-[07:15:03] [Server thread/INFO]: [Not Secure] <PabloBusy> у тя 27
-[07:15:07] [Server thread/INFO]: Made _IKaver_ a server operator
-[07:15:10] [Server thread/INFO]: [_IKaver_: Set own game mode to Creative Mode]
-[07:15:11] [Server thread/INFO]: [Not Secure] <PabloBusy> да
-[07:15:33] [Server thread/INFO]: [Not Secure] <PabloBusy> 26
-[07:15:37] [Server thread/INFO]: [Not Secure] <PabloBusy> у тя 44
-[07:15:45] [Server thread/INFO]: [Not Secure] <PabloBusy> у тя 44
-[07:15:45] [Server thread/INFO]: [Not Secure] <PabloBusy> у тя 44
-[07:15:46] [Server thread/INFO]: [Not Secure] <PabloBusy> у тя 44
-[07:15:46] [Server thread/INFO]: [Not Secure] <PabloBusy> у тя 44
-[07:15:47] [Server thread/INFO]: [Not Secure] <PabloBusy> у тя 44
-[07:15:47] [Server thread/INFO]: [Not Secure] <PabloBusy> у тя 44
-[07:15:59] [Server thread/INFO]: [_IKaver_: Successfully filled 64 block(s)]
-[07:16:02] [Server thread/INFO]: [_IKaver_: Made PabloBusy a server operator]
-[07:16:27] [Server thread/INFO]: [Not Secure] <PabloBusy> дай гм
-[07:16:32] [Server thread/INFO]: [PabloBusy: Set own game mode to Creative Mode]
-[07:16:39] [Server thread/INFO]: [Not Secure] <PabloBusy> ща правильно сделаю
-[07:16:54] [Server thread/INFO]: [_IKaver_: Successfully filled 2601 block(s)]
-[07:17:10] [Server thread/INFO]: [Not Secure] <PabloBusy> хватит
-[07:17:19] [Server thread/INFO]: [_IKaver_: Successfully filled 2594 block(s)]
-[07:17:25] [Server thread/INFO]: [Not Secure] <PabloBusy> ладно
-[07:17:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2043ms or 40 ticks behind
-[07:17:54] [Server thread/INFO]: [Not Secure] <PabloBusy> делай
-[07:17:54] [Server thread/INFO]: [Not Secure] <PabloBusy> долго
-[07:18:03] [Server thread/INFO]: [Not Secure] <PabloBusy> да
-[07:18:24] [Server thread/INFO]: [Not Secure] <PabloBusy> подлагивает
-[07:18:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19416ms or 388 ticks behind
-[07:19:13] [Server thread/INFO]: [Not Secure] <PabloBusy> ПОХУ
-[07:19:26] [Server thread/INFO]: [Not Secure] <PabloBusy> нтов сервов на папере
-[07:19:31] [Server thread/INFO]: [Not Secure] <PabloBusy> там работает
-[07:19:46] [Server thread/INFO]: [Not Secure] <PabloBusy> afh
-[07:19:49] [Server thread/INFO]: [Not Secure] <PabloBusy> afk
-[07:20:46] [Server thread/INFO]: [Not Secure] <PabloBusy> я тут
-[07:21:01] [Server thread/INFO]: PabloBusy lost connection: Disconnected
-[07:21:01] [Server thread/INFO]: PabloBusy left the game
+	- servercore 1.3.9+1.20.1
+	   |-- com_electronwill_night-config_core 3.6.6
+	   |-- com_electronwill_night-config_toml 3.6.6
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   \-- placeholder-api 2.1.2+1.20.1
+	- spark 1.10.53
+	- starlight 1.1.2+fabric.dbc156f
+	- vmp 0.2.0+beta.7.102
+[08:07:25] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/minecraft-own-cloud-host-github/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[08:07:25] [main/INFO]: Compatibility level set to JAVA_17
+[08:07:25] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 2 override(s) found
+[08:07:25] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
+[08:07:26] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[08:07:26] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [vmp]) disables it and children
+[08:07:26] [main/WARN]: Error loading class: com/ishland/c2me/notickvd/common/NoTickChunkSendingInterceptor (java.lang.ClassNotFoundException: com/ishland/c2me/notickvd/common/NoTickChunkSendingInterceptor)
+[08:07:28] [main/WARN]: Method overwrite conflict for method_5800 in carpet-fixes.mixins.json:itemFixes.ItemEntity_lightningKillsDropsMixin from mod carpet-fixes, previously written by carpet.mixins.ItemEntityMixin. Skipping method.
+[08:07:28] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on carpet-shadow.mixins.json:fragility.ItemEntityMixin from mod carpet-shadow::handler$bhg000$carpet-shadow$setEntityForStack exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[08:07:33] [main/WARN]: Method overwrite conflict for getConnection in fabric-networking-api-v1.mixins.json:accessor.ServerPlayNetworkHandlerAccessor from mod fabric-networking-api-v1, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
+[08:07:35] [main/WARN]: @ModifyConstant conflict. Skipping servercore.common.mixins.json:features.misc.MinecraftServerMixin from mod servercore->@ModifyConstant::servercore$modifyAutoSaveInterval(I)I with priority 900, already redirected by carpet-fixes.mixins.json:advanced.MinecraftServer_autosaveDelayMixin from mod carpet-fixes->@ModifyConstant::tickAutoSave(I)I with priority 1000
+[08:07:35] [main/INFO]: Carpet Shadow Loading!
+[08:07:35] [main/INFO]: [ServerCore] Loaded V1.3.9+1.20.1!
+[08:07:35] [main/INFO]: Carpet Shadow Loaded!
+[08:07:35] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08:07:35] [main/INFO]: Found new data pack file/namecolours-1-19-v1-0 (1).zip, loading it automatically
+[08:07:35] [main/INFO]: Found new data pack file/player head drops v1.1.3 (MC 1.19.x).zip, loading it automatically
+[08:07:36] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on carpet-shadow.mixins.json:crafting.RecipeManagerMixin from mod carpet-shadow::handler$bhd000$carpet-shadow$addShadowRecipe exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[08:07:36] [main/ERROR]: Failed to add settings command for carpet-fixes. It is masking previous command.
+[08:07:37] [main/INFO]: Loaded 7 recipes
+[08:07:37] [main/INFO]: Loaded 1275 advancements
+[08:07:37] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 104 translation keys
+[08:07:37] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 3.557 ms
+[08:07:38] [Server thread/INFO]: Starting background profiler...
+[08:07:38] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[08:07:38] [Server thread/INFO]: Loading properties
+[08:07:38] [Server thread/INFO]: Default game type: SURVIVAL
+[08:07:38] [Server thread/INFO]: Generating keypair
+[08:07:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:07:38] [Server thread/INFO]: Using epoll channel type
+[08:07:38] [Server thread/INFO]: Preparing level "world"
+[08:07:39] [Server thread/INFO]: Changing watch distance to 16
+[08:07:41] [Server thread/INFO]: Changing watch distance to 16
+[08:07:41] [Server thread/INFO]: Changing watch distance to 16
+[08:07:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:07:44] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[08:07:44] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[08:07:44] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[08:07:44] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[08:07:44] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[08:07:44] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[08:07:44] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[08:07:45] [Worker-Main-3/INFO]: Preparing spawn area: 44%
+[08:07:45] [Server thread/INFO]: Time elapsed: 3829 ms
+[08:07:45] [Server thread/INFO]: Done (6.922s)! For help, type "help"
+[08:09:15] [Server thread/INFO]: com.mojang.authlib.GameProfile@4b71be5a[id=<null>,name=_IKaver_,properties={},legacy=false] (/[0:0:0:0:0:0:0:1%0]:46394) lost connection: Disconnected
+[08:10:27] [User Authenticator #1/INFO]: UUID of player _IKaver_ is b9a9d175-b06f-443e-8e71-851f59a57644
+[08:10:28] [Server thread/INFO]: _IKaver_[/[0:0:0:0:0:0:0:1%0]:50144] logged in with entity id 168 at (5.5, 64.0, -3.5)
+[08:10:28] [Server thread/INFO]: _IKaver_ joined the game
+[08:10:28] [Server thread/INFO]: Async chunk loading for player _IKaver_ completed
+[08:10:31] [Server thread/INFO]: Player _IKaver_ joined with a matching carpet client
+[08:10:34] [User Authenticator #2/INFO]: UUID of player PabloBusy is 220099ad-c1db-477d-811e-07d46ac81553
+[08:10:34] [Server thread/INFO]: PabloBusy[/[0:0:0:0:0:0:0:1%0]:48312] logged in with entity id 291 at (1.5, 69.0, 10.5)
+[08:10:34] [Server thread/INFO]: PabloBusy joined the game
+[08:10:34] [Server thread/INFO]: Async chunk loading for player PabloBusy completed
+[08:10:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=2, y=69, z=11}
+[08:10:57] [Server thread/INFO]: _IKaver_ lost connection: Disconnected
+[08:10:57] [Server thread/INFO]: _IKaver_ left the game
+[08:11:59] [Server thread/INFO]: PabloBusy lost connection: Disconnected
+[08:11:59] [Server thread/INFO]: PabloBusy left the game
+[08:12:26] [User Authenticator #3/INFO]: UUID of player _IKaver_ is b9a9d175-b06f-443e-8e71-851f59a57644
+[08:12:26] [Server thread/INFO]: _IKaver_[/[0:0:0:0:0:0:0:1%0]:34554] logged in with entity id 690 at (11.837736841052587, 65.0, 24.69999998807907)
+[08:12:26] [Server thread/INFO]: _IKaver_ joined the game
+[08:12:26] [Server thread/INFO]: Async chunk loading for player _IKaver_ completed
+[08:12:27] [Server thread/INFO]: Player _IKaver_ joined with a matching carpet client
+[08:12:36] [User Authenticator #4/INFO]: UUID of player PabloBusy is 220099ad-c1db-477d-811e-07d46ac81553
+[08:12:36] [Server thread/INFO]: PabloBusy[/[0:0:0:0:0:0:0:1%0]:35986] logged in with entity id 813 at (31.18586388812615, 65.0, 50.56158911642569)
+[08:12:36] [Server thread/INFO]: PabloBusy joined the game
+[08:12:36] [Server thread/INFO]: Async chunk loading for player PabloBusy completed
+[08:12:50] [Server thread/INFO]: Made _IKaver_ a server operator
+[08:12:55] [Server thread/INFO]: [_IKaver_: Set the time to 6000]
+[08:13:12] [Server thread/INFO]: [_IKaver_: fastRedstoneDust: false, [Change permanently?]]
+[08:13:22] [Server thread/INFO]: [_IKaver_: optimizedTNT: true, [Change permanently?]]
+[08:13:39] [Server thread/INFO]: [_IKaver_: optimizedTNT: false, [Change permanently?]]
+[08:13:41] [Server thread/INFO]: [_IKaver_: Rule fastRedstoneDust will now default to false]
+[08:13:42] [Server thread/INFO]: [_IKaver_: Rule optimizedTNT will now default to false]
+[08:13:52] [Server thread/INFO]: [_IKaver_: shadowItemMode: persist, [Change permanently?]]
+[08:13:55] [Server thread/INFO]: [_IKaver_: Rule shadowItemMode will now default to persist]
+[08:14:17] [Server thread/INFO]: [_IKaver_: shadowItemInventoryFragilityFix: true, [Change permanently?]]
+[08:14:19] [Server thread/INFO]: [_IKaver_: Rule shadowItemInventoryFragilityFix will now default to true]
+[08:14:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=6, y=67, z=41} class_2338{x=11, y=69, z=9}
+[08:14:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=6, y=67, z=41} class_2338{x=14, y=69, z=12}
+[08:14:39] [Server thread/INFO]: [_IKaver_: shadowItemTransferFragilityFix: true, [Change permanently?]]
+[08:14:41] [Server thread/INFO]: [_IKaver_: Rule shadowItemTransferFragilityFix will now default to true]
+[08:14:51] [Server thread/INFO]: [_IKaver_: shadowItemUpdateFix: true, [Change permanently?]]
+[08:14:52] [Server thread/INFO]: [_IKaver_: Rule shadowItemUpdateFix will now default to true]
+[08:15:04] [Server thread/INFO]: [_IKaver_: lagFreeSpawning: true, [Change permanently?]]
+[08:15:08] [Server thread/INFO]: [_IKaver_: Rule lagFreeSpawning will now default to true]
+[08:15:22] [Server thread/INFO]: [_IKaver_: shadowItemTooltip: false, [Change permanently?]]
+[08:15:51] [Server thread/INFO]: [_IKaver_: reIntroduceInstantBlockUpdates: true, [Change permanently?]]
+[08:15:58] [Server thread/INFO]: [_IKaver_: updateSuppressionCrashFix: true, [Change permanently?]]
+[08:16:01] [Server thread/INFO]: [_IKaver_: Rule shadowItemTooltip will now default to false]
+[08:16:03] [Server thread/INFO]: [_IKaver_: Rule reIntroduceInstantBlockUpdates will now default to true]
+[08:16:05] [Server thread/INFO]: [_IKaver_: Rule updateSuppressionCrashFix will now default to true]
+[08:16:17] [Server thread/INFO]: [_IKaver_: reIntroduceItemShadowing: true, [Change permanently?]]
+[08:16:18] [Server thread/INFO]: [_IKaver_: Rule reIntroduceItemShadowing will now default to true]
+[08:16:26] [Server thread/INFO]: [_IKaver_: Set the time to 6000]
+[08:16:28] [Server thread/INFO]: _IKaver_ was killed
+[08:16:28] [Server thread/INFO]: PabloBusy was killed
+[08:16:28] [Server thread/INFO]: [_IKaver_: Killed 278 entities]
+[08:16:29] [Server thread/INFO]: Async chunk loading for player _IKaver_ completed
+[08:16:29] [Server thread/INFO]: Async chunk loading for player PabloBusy completed
+[08:16:40] [Server thread/INFO]: [_IKaver_: Made _IKaver_ no longer a server operator]
+[08:16:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=10, y=66, z=6}
+[08:17:36] [Server thread/INFO]: _IKaver_ has made the advancement [Stone Age]
+[08:17:47] [Server thread/INFO]: _IKaver_ has made the advancement [Getting an Upgrade]
+[08:25:31] [Server thread/INFO]: _IKaver_ has made the advancement [Monster Hunter]
+[08:26:51] [Server thread/INFO]: PabloBusy has made the advancement [Sweet Dreams]
+[08:27:01] [Server thread/INFO]: PabloBusy has made the advancement [Diamonds!]
+[08:27:02] [Server thread/INFO]: PabloBusy has made the advancement [Suit Up]
+[08:27:18] [Server thread/INFO]: PabloBusy was shot by Skeleton
+[08:27:20] [Server thread/INFO]: Async chunk loading for player PabloBusy completed
+[08:27:37] [Server thread/INFO]: _IKaver_ has made the advancement [Sweet Dreams]
+[08:28:42] [Server thread/INFO]: _IKaver_ was slain by Iron Golem
+[08:28:43] [Server thread/INFO]: Async chunk loading for player _IKaver_ completed
+[08:28:50] [Server thread/INFO]: PabloBusy has made the advancement [Getting an Upgrade]
+[08:28:52] [Server thread/INFO]: PabloBusy has made the advancement [Stone Age]
+[08:29:02] [Server thread/INFO]: _IKaver_ has made the advancement [Acquire Hardware]
+[08:33:20] [Server thread/INFO]: PabloBusy lost connection: Disconnected
+[08:33:20] [Server thread/INFO]: PabloBusy left the game
+[08:34:05] [User Authenticator #5/INFO]: UUID of player PabloBusy is 220099ad-c1db-477d-811e-07d46ac81553
+[08:34:06] [Server thread/INFO]: PabloBusy[/[0:0:0:0:0:0:0:1%0]:37348] logged in with entity id 10513 at (970.3466796572385, 31.0, 645.0881761278243)
+[08:34:06] [Server thread/INFO]: PabloBusy joined the game
+[08:34:06] [Server thread/INFO]: Async chunk loading for player PabloBusy completed
+[08:34:36] [Server thread/INFO]: _IKaver_ has made the advancement [Isn't It Iron Pick]
+[08:35:51] [Server thread/INFO]: PabloBusy has made the advancement [Acquire Hardware]
+[08:38:40] [Server thread/INFO]: PabloBusy has made the advancement [Monster Hunter]
+[08:41:17] [Server thread/INFO]: PabloBusy has made the advancement [Isn't It Iron Pick]
+[08:41:50] [Server thread/INFO]: PabloBusy has made the advancement [Not Today, Thank You]
