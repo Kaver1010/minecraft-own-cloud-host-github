@@ -1,7 +1,7 @@
-[08:07:24] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.7
-[08:07:24] [ForkJoinPool-1-worker-2/WARN]: The mod "carpet-shadow" contains invalid entries in its mod json:
+[17:29:25] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.7
+[17:29:26] [ForkJoinPool-1-worker-2/WARN]: The mod "carpet-shadow" contains invalid entries in its mod json:
 - Invalid entry in person "comment" at line 22 column 16
-[08:07:25] [main/INFO]: Loading 79 mods:
+[17:29:26] [main/INFO]: Loading 79 mods:
 	- armor-stand-editor 2.1.2+1.20.1
 	   |-- common-protection-api 1.0.0
 	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
@@ -96,132 +96,153 @@
 	- spark 1.10.53
 	- starlight 1.1.2+fabric.dbc156f
 	- vmp 0.2.0+beta.7.102
-[08:07:25] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/minecraft-own-cloud-host-github/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[08:07:25] [main/INFO]: Compatibility level set to JAVA_17
-[08:07:25] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 2 override(s) found
-[08:07:25] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
-[08:07:26] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
-[08:07:26] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [vmp]) disables it and children
-[08:07:26] [main/WARN]: Error loading class: com/ishland/c2me/notickvd/common/NoTickChunkSendingInterceptor (java.lang.ClassNotFoundException: com/ishland/c2me/notickvd/common/NoTickChunkSendingInterceptor)
-[08:07:28] [main/WARN]: Method overwrite conflict for method_5800 in carpet-fixes.mixins.json:itemFixes.ItemEntity_lightningKillsDropsMixin from mod carpet-fixes, previously written by carpet.mixins.ItemEntityMixin. Skipping method.
-[08:07:28] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on carpet-shadow.mixins.json:fragility.ItemEntityMixin from mod carpet-shadow::handler$bhg000$carpet-shadow$setEntityForStack exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[08:07:33] [main/WARN]: Method overwrite conflict for getConnection in fabric-networking-api-v1.mixins.json:accessor.ServerPlayNetworkHandlerAccessor from mod fabric-networking-api-v1, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
-[08:07:35] [main/WARN]: @ModifyConstant conflict. Skipping servercore.common.mixins.json:features.misc.MinecraftServerMixin from mod servercore->@ModifyConstant::servercore$modifyAutoSaveInterval(I)I with priority 900, already redirected by carpet-fixes.mixins.json:advanced.MinecraftServer_autosaveDelayMixin from mod carpet-fixes->@ModifyConstant::tickAutoSave(I)I with priority 1000
-[08:07:35] [main/INFO]: Carpet Shadow Loading!
-[08:07:35] [main/INFO]: [ServerCore] Loaded V1.3.9+1.20.1!
-[08:07:35] [main/INFO]: Carpet Shadow Loaded!
-[08:07:35] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[08:07:35] [main/INFO]: Found new data pack file/namecolours-1-19-v1-0 (1).zip, loading it automatically
-[08:07:35] [main/INFO]: Found new data pack file/player head drops v1.1.3 (MC 1.19.x).zip, loading it automatically
-[08:07:36] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on carpet-shadow.mixins.json:crafting.RecipeManagerMixin from mod carpet-shadow::handler$bhd000$carpet-shadow$addShadowRecipe exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[08:07:36] [main/ERROR]: Failed to add settings command for carpet-fixes. It is masking previous command.
-[08:07:37] [main/INFO]: Loaded 7 recipes
-[08:07:37] [main/INFO]: Loaded 1275 advancements
-[08:07:37] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 104 translation keys
-[08:07:37] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 3.557 ms
-[08:07:38] [Server thread/INFO]: Starting background profiler...
-[08:07:38] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[08:07:38] [Server thread/INFO]: Loading properties
-[08:07:38] [Server thread/INFO]: Default game type: SURVIVAL
-[08:07:38] [Server thread/INFO]: Generating keypair
-[08:07:38] [Server thread/INFO]: Starting Minecraft server on *:25565
-[08:07:38] [Server thread/INFO]: Using epoll channel type
-[08:07:38] [Server thread/INFO]: Preparing level "world"
-[08:07:39] [Server thread/INFO]: Changing watch distance to 16
-[08:07:41] [Server thread/INFO]: Changing watch distance to 16
-[08:07:41] [Server thread/INFO]: Changing watch distance to 16
-[08:07:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[08:07:44] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[08:07:44] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[08:07:44] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[08:07:44] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[08:07:44] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[08:07:44] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[08:07:44] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[08:07:45] [Worker-Main-3/INFO]: Preparing spawn area: 44%
-[08:07:45] [Server thread/INFO]: Time elapsed: 3829 ms
-[08:07:45] [Server thread/INFO]: Done (6.922s)! For help, type "help"
-[08:09:15] [Server thread/INFO]: com.mojang.authlib.GameProfile@4b71be5a[id=<null>,name=_IKaver_,properties={},legacy=false] (/[0:0:0:0:0:0:0:1%0]:46394) lost connection: Disconnected
-[08:10:27] [User Authenticator #1/INFO]: UUID of player _IKaver_ is b9a9d175-b06f-443e-8e71-851f59a57644
-[08:10:28] [Server thread/INFO]: _IKaver_[/[0:0:0:0:0:0:0:1%0]:50144] logged in with entity id 168 at (5.5, 64.0, -3.5)
-[08:10:28] [Server thread/INFO]: _IKaver_ joined the game
-[08:10:28] [Server thread/INFO]: Async chunk loading for player _IKaver_ completed
-[08:10:31] [Server thread/INFO]: Player _IKaver_ joined with a matching carpet client
-[08:10:34] [User Authenticator #2/INFO]: UUID of player PabloBusy is 220099ad-c1db-477d-811e-07d46ac81553
-[08:10:34] [Server thread/INFO]: PabloBusy[/[0:0:0:0:0:0:0:1%0]:48312] logged in with entity id 291 at (1.5, 69.0, 10.5)
-[08:10:34] [Server thread/INFO]: PabloBusy joined the game
-[08:10:34] [Server thread/INFO]: Async chunk loading for player PabloBusy completed
-[08:10:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=2, y=69, z=11}
-[08:10:57] [Server thread/INFO]: _IKaver_ lost connection: Disconnected
-[08:10:57] [Server thread/INFO]: _IKaver_ left the game
-[08:11:59] [Server thread/INFO]: PabloBusy lost connection: Disconnected
-[08:11:59] [Server thread/INFO]: PabloBusy left the game
-[08:12:26] [User Authenticator #3/INFO]: UUID of player _IKaver_ is b9a9d175-b06f-443e-8e71-851f59a57644
-[08:12:26] [Server thread/INFO]: _IKaver_[/[0:0:0:0:0:0:0:1%0]:34554] logged in with entity id 690 at (11.837736841052587, 65.0, 24.69999998807907)
-[08:12:26] [Server thread/INFO]: _IKaver_ joined the game
-[08:12:26] [Server thread/INFO]: Async chunk loading for player _IKaver_ completed
-[08:12:27] [Server thread/INFO]: Player _IKaver_ joined with a matching carpet client
-[08:12:36] [User Authenticator #4/INFO]: UUID of player PabloBusy is 220099ad-c1db-477d-811e-07d46ac81553
-[08:12:36] [Server thread/INFO]: PabloBusy[/[0:0:0:0:0:0:0:1%0]:35986] logged in with entity id 813 at (31.18586388812615, 65.0, 50.56158911642569)
-[08:12:36] [Server thread/INFO]: PabloBusy joined the game
-[08:12:36] [Server thread/INFO]: Async chunk loading for player PabloBusy completed
-[08:12:50] [Server thread/INFO]: Made _IKaver_ a server operator
-[08:12:55] [Server thread/INFO]: [_IKaver_: Set the time to 6000]
-[08:13:12] [Server thread/INFO]: [_IKaver_: fastRedstoneDust: false, [Change permanently?]]
-[08:13:22] [Server thread/INFO]: [_IKaver_: optimizedTNT: true, [Change permanently?]]
-[08:13:39] [Server thread/INFO]: [_IKaver_: optimizedTNT: false, [Change permanently?]]
-[08:13:41] [Server thread/INFO]: [_IKaver_: Rule fastRedstoneDust will now default to false]
-[08:13:42] [Server thread/INFO]: [_IKaver_: Rule optimizedTNT will now default to false]
-[08:13:52] [Server thread/INFO]: [_IKaver_: shadowItemMode: persist, [Change permanently?]]
-[08:13:55] [Server thread/INFO]: [_IKaver_: Rule shadowItemMode will now default to persist]
-[08:14:17] [Server thread/INFO]: [_IKaver_: shadowItemInventoryFragilityFix: true, [Change permanently?]]
-[08:14:19] [Server thread/INFO]: [_IKaver_: Rule shadowItemInventoryFragilityFix will now default to true]
-[08:14:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=6, y=67, z=41} class_2338{x=11, y=69, z=9}
-[08:14:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=6, y=67, z=41} class_2338{x=14, y=69, z=12}
-[08:14:39] [Server thread/INFO]: [_IKaver_: shadowItemTransferFragilityFix: true, [Change permanently?]]
-[08:14:41] [Server thread/INFO]: [_IKaver_: Rule shadowItemTransferFragilityFix will now default to true]
-[08:14:51] [Server thread/INFO]: [_IKaver_: shadowItemUpdateFix: true, [Change permanently?]]
-[08:14:52] [Server thread/INFO]: [_IKaver_: Rule shadowItemUpdateFix will now default to true]
-[08:15:04] [Server thread/INFO]: [_IKaver_: lagFreeSpawning: true, [Change permanently?]]
-[08:15:08] [Server thread/INFO]: [_IKaver_: Rule lagFreeSpawning will now default to true]
-[08:15:22] [Server thread/INFO]: [_IKaver_: shadowItemTooltip: false, [Change permanently?]]
-[08:15:51] [Server thread/INFO]: [_IKaver_: reIntroduceInstantBlockUpdates: true, [Change permanently?]]
-[08:15:58] [Server thread/INFO]: [_IKaver_: updateSuppressionCrashFix: true, [Change permanently?]]
-[08:16:01] [Server thread/INFO]: [_IKaver_: Rule shadowItemTooltip will now default to false]
-[08:16:03] [Server thread/INFO]: [_IKaver_: Rule reIntroduceInstantBlockUpdates will now default to true]
-[08:16:05] [Server thread/INFO]: [_IKaver_: Rule updateSuppressionCrashFix will now default to true]
-[08:16:17] [Server thread/INFO]: [_IKaver_: reIntroduceItemShadowing: true, [Change permanently?]]
-[08:16:18] [Server thread/INFO]: [_IKaver_: Rule reIntroduceItemShadowing will now default to true]
-[08:16:26] [Server thread/INFO]: [_IKaver_: Set the time to 6000]
-[08:16:28] [Server thread/INFO]: _IKaver_ was killed
-[08:16:28] [Server thread/INFO]: PabloBusy was killed
-[08:16:28] [Server thread/INFO]: [_IKaver_: Killed 278 entities]
-[08:16:29] [Server thread/INFO]: Async chunk loading for player _IKaver_ completed
-[08:16:29] [Server thread/INFO]: Async chunk loading for player PabloBusy completed
-[08:16:40] [Server thread/INFO]: [_IKaver_: Made _IKaver_ no longer a server operator]
-[08:16:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=10, y=66, z=6}
-[08:17:36] [Server thread/INFO]: _IKaver_ has made the advancement [Stone Age]
-[08:17:47] [Server thread/INFO]: _IKaver_ has made the advancement [Getting an Upgrade]
-[08:25:31] [Server thread/INFO]: _IKaver_ has made the advancement [Monster Hunter]
-[08:26:51] [Server thread/INFO]: PabloBusy has made the advancement [Sweet Dreams]
-[08:27:01] [Server thread/INFO]: PabloBusy has made the advancement [Diamonds!]
-[08:27:02] [Server thread/INFO]: PabloBusy has made the advancement [Suit Up]
-[08:27:18] [Server thread/INFO]: PabloBusy was shot by Skeleton
-[08:27:20] [Server thread/INFO]: Async chunk loading for player PabloBusy completed
-[08:27:37] [Server thread/INFO]: _IKaver_ has made the advancement [Sweet Dreams]
-[08:28:42] [Server thread/INFO]: _IKaver_ was slain by Iron Golem
-[08:28:43] [Server thread/INFO]: Async chunk loading for player _IKaver_ completed
-[08:28:50] [Server thread/INFO]: PabloBusy has made the advancement [Getting an Upgrade]
-[08:28:52] [Server thread/INFO]: PabloBusy has made the advancement [Stone Age]
-[08:29:02] [Server thread/INFO]: _IKaver_ has made the advancement [Acquire Hardware]
-[08:33:20] [Server thread/INFO]: PabloBusy lost connection: Disconnected
-[08:33:20] [Server thread/INFO]: PabloBusy left the game
-[08:34:05] [User Authenticator #5/INFO]: UUID of player PabloBusy is 220099ad-c1db-477d-811e-07d46ac81553
-[08:34:06] [Server thread/INFO]: PabloBusy[/[0:0:0:0:0:0:0:1%0]:37348] logged in with entity id 10513 at (970.3466796572385, 31.0, 645.0881761278243)
-[08:34:06] [Server thread/INFO]: PabloBusy joined the game
-[08:34:06] [Server thread/INFO]: Async chunk loading for player PabloBusy completed
-[08:34:36] [Server thread/INFO]: _IKaver_ has made the advancement [Isn't It Iron Pick]
-[08:35:51] [Server thread/INFO]: PabloBusy has made the advancement [Acquire Hardware]
-[08:38:40] [Server thread/INFO]: PabloBusy has made the advancement [Monster Hunter]
-[08:41:17] [Server thread/INFO]: PabloBusy has made the advancement [Isn't It Iron Pick]
-[08:41:50] [Server thread/INFO]: PabloBusy has made the advancement [Not Today, Thank You]
+[17:29:26] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/minecraft-own-cloud-host-github/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[17:29:27] [main/INFO]: Compatibility level set to JAVA_17
+[17:29:27] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 2 override(s) found
+[17:29:27] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
+[17:29:28] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[17:29:28] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [vmp]) disables it and children
+[17:29:28] [main/WARN]: Error loading class: com/ishland/c2me/notickvd/common/NoTickChunkSendingInterceptor (java.lang.ClassNotFoundException: com/ishland/c2me/notickvd/common/NoTickChunkSendingInterceptor)
+[17:29:31] [main/WARN]: Method overwrite conflict for method_5800 in carpet-fixes.mixins.json:itemFixes.ItemEntity_lightningKillsDropsMixin from mod carpet-fixes, previously written by carpet.mixins.ItemEntityMixin. Skipping method.
+[17:29:31] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on carpet-shadow.mixins.json:fragility.ItemEntityMixin from mod carpet-shadow::handler$bhg000$carpet-shadow$setEntityForStack exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[17:29:35] [main/WARN]: Method overwrite conflict for getConnection in fabric-networking-api-v1.mixins.json:accessor.ServerPlayNetworkHandlerAccessor from mod fabric-networking-api-v1, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
+[17:29:37] [main/WARN]: @ModifyConstant conflict. Skipping servercore.common.mixins.json:features.misc.MinecraftServerMixin from mod servercore->@ModifyConstant::servercore$modifyAutoSaveInterval(I)I with priority 900, already redirected by carpet-fixes.mixins.json:advanced.MinecraftServer_autosaveDelayMixin from mod carpet-fixes->@ModifyConstant::tickAutoSave(I)I with priority 1000
+[17:29:37] [main/INFO]: Carpet Shadow Loading!
+[17:29:37] [main/INFO]: [ServerCore] Loaded V1.3.9+1.20.1!
+[17:29:37] [main/INFO]: Carpet Shadow Loaded!
+[17:29:37] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:29:39] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on carpet-shadow.mixins.json:crafting.RecipeManagerMixin from mod carpet-shadow::handler$bhd000$carpet-shadow$addShadowRecipe exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[17:29:39] [main/ERROR]: Failed to add settings command for carpet-fixes. It is masking previous command.
+[17:29:39] [main/INFO]: Loaded 7 recipes
+[17:29:40] [main/INFO]: Loaded 1275 advancements
+[17:29:40] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 104 translation keys
+[17:29:40] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.451 ms
+[17:29:40] [Server thread/INFO]: Starting background profiler...
+[17:29:41] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[17:29:41] [Server thread/INFO]: Loading properties
+[17:29:41] [Server thread/INFO]: Default game type: SURVIVAL
+[17:29:41] [Server thread/INFO]: Generating keypair
+[17:29:41] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:29:41] [Server thread/INFO]: Using epoll channel type
+[17:29:41] [Server thread/INFO]: Preparing level "world"
+[17:29:41] [Server thread/INFO]: [CM] Loaded 11 settings from carpet.conf
+[17:29:41] [Server thread/INFO]: [CM] Loaded 4 settings from carpet-fixes.conf
+[17:29:42] [Server thread/INFO]: Changing watch distance to 16
+[17:29:44] [Server thread/INFO]: Changing watch distance to 16
+[17:29:44] [Server thread/INFO]: Changing watch distance to 16
+[17:29:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:29:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:29:46] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:29:46] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:29:46] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:29:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:29:47] [Worker-Main-3/INFO]: Preparing spawn area: 1%
+[17:29:47] [Worker-Main-2/INFO]: Preparing spawn area: 11%
+[17:29:48] [Worker-Main-2/INFO]: Preparing spawn area: 31%
+[17:29:48] [Worker-Main-2/INFO]: Preparing spawn area: 48%
+[17:29:49] [Worker-Main-1/INFO]: Preparing spawn area: 75%
+[17:29:49] [Server thread/INFO]: Time elapsed: 4682 ms
+[17:29:49] [Server thread/INFO]: Done (7.529s)! For help, type "help"
+[17:31:36] [User Authenticator #1/INFO]: UUID of player _IKaver_ is b9a9d175-b06f-443e-8e71-851f59a57644
+[17:31:37] [Server thread/INFO]: _IKaver_[/127.157.176.89:39459] logged in with entity id 100 at (988.6999999880791, -55.0, 671.5488486612206)
+[17:31:37] [Server thread/INFO]: _IKaver_ joined the game
+[17:31:39] [Server thread/INFO]: Player _IKaver_ joined with a matching carpet client
+[17:31:39] [Server thread/INFO]: Async chunk loading for player _IKaver_ completed
+[17:32:38] [User Authenticator #2/INFO]: UUID of player PabloBusy is 220099ad-c1db-477d-811e-07d46ac81553
+[17:32:38] [Server thread/INFO]: PabloBusy[/127.129.199.64:36715] logged in with entity id 709 at (816.7888982294304, 67.0, 545.2223877151274)
+[17:32:38] [Server thread/INFO]: PabloBusy joined the game
+[17:32:39] [Server thread/INFO]: Async chunk loading for player PabloBusy completed
+[17:33:03] [Server thread/INFO]: <_IKaver_> 63мс
+[17:33:08] [Server thread/INFO]: <_IKaver_> вроде играбельно
+[17:33:09] [Server thread/INFO]: <PabloBusy> дап
+[17:33:13] [Server thread/INFO]: <PabloBusy> в
+[17:33:15] [Server thread/INFO]: <_IKaver_> скажи щас чтонибудь в гс
+[17:33:21] [Server thread/INFO]: <_IKaver_> да
+[17:33:23] [Server thread/INFO]: <_IKaver_> вроде норм
+[17:33:25] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2846@1c40f269, suppressing error
+carpetfixes.helpers.UpdateSuppressionException: Update suppression
+	at net.minecraft.class_7165.handler$zok000$carpet-fixes$catchNeighborUpdates(class_7165.java:534) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7165.method_41708(class_7165.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41703(class_7164.java:29) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41704(class_7164.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41705(class_7164.java:523) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8452(class_3218.java:1018) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8408(class_3218.java:1433) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.redirect$zzk000$carpet$updateNeighborsMaybe(class_1937.java:1050) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_30092(class_1937.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8652(class_1937.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8650(class_1937.java:282) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14266(class_3225.java:257) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_21717(class_3225.java:228) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14263(class_3225.java:203) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.method_12066(class_3244.java:1083) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2846.method_12361(class_2846.java:42) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2846.method_11054(class_2846.java:8) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:764) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:743) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zbg000$carpet$modifiedRunLoop(MinecraftServer.java:8951) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:33:26] [Server thread/INFO]: <_IKaver_> ну ок
+[17:33:31] [Server thread/INFO]: <_IKaver_> тогда завтра играть будем
+[17:33:33] [Server thread/INFO]: <_IKaver_> я пойду уже
+[17:33:39] [Server thread/INFO]: <_IKaver_> уроки надо сделать и т.д.
+[17:33:40] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@251be494, suppressing error
+carpetfixes.helpers.UpdateSuppressionException: Update suppression
+	at net.minecraft.class_7165.handler$zok000$carpet-fixes$catchNeighborUpdates(class_7165.java:534) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7165.method_41708(class_7165.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41703(class_7164.java:29) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41704(class_7164.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41705(class_7164.java:523) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8452(class_3218.java:1018) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8408(class_3218.java:1433) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.redirect$zzk000$carpet$updateNeighborsMaybe(class_1937.java:1050) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_30092(class_1937.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8652(class_1937.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7708(class_1747.java:163) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7712(class_1747.java:80) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7884(class_1747.java:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1799.method_7981(class_1799.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14262(class_3225.java:363) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.method_12046(class_3244.java:1140) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_12547(class_2885.java:34) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_11054(class_2885.java:8) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:764) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:743) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zbg000$carpet$modifiedRunLoop(MinecraftServer.java:8951) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:33:41] [Server thread/INFO]: <_IKaver_> что?
+[17:33:48] [Server thread/INFO]: <_IKaver_> ок
+[17:33:48] [Server thread/INFO]: <_IKaver_> бб
+[17:33:51] [Server thread/INFO]: [_IKaver_: Stopping the server]
+[17:33:51] [Server thread/INFO]: Stopping server
+[17:33:51] [Server thread/INFO]: Saving players
+[17:33:51] [Server thread/INFO]: Saving worlds
+[17:33:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:33:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[17:33:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[17:33:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:33:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:33:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:33:56] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
