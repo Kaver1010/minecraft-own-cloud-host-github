@@ -1,17 +1,25 @@
-# HOW TO START A SERVER
-In first bash:
+# HOW TO SETUP A GITHUB CODESPACE
+**Run this commands:**\
+chmod +x setup.sh\
+./setup.sh
+# HOW TO RUN A MINECRAFT SERVER
+**Run this command:**\
 ./start_server.sh
-
-In second bash:
-ngrok tcp 25565
-
-Copy Ip without https:// and play!
-
-
-
-
-
-
+# HOW TO START A NGROK
+**In frist use, add authtoke to config file (ngrok authtoken \<token here\>)**\
+**To run ngrok, use command:** ngrok tcp 25565
+# HOW TO START A PLAYIT
+**Run command:** playit\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.
+# OTHER
 # minecraft-own-cloud-host-github
 Host minecraft on Github
 You can create your own cloud hosting for minecraft
