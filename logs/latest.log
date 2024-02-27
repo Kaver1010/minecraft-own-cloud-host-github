@@ -1,7 +1,7 @@
-[17:29:25] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.7
-[17:29:26] [ForkJoinPool-1-worker-2/WARN]: The mod "carpet-shadow" contains invalid entries in its mod json:
+[12:20:39] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.7
+[12:20:39] [ForkJoinPool-1-worker-1/WARN]: The mod "carpet-shadow" contains invalid entries in its mod json:
 - Invalid entry in person "comment" at line 22 column 16
-[17:29:26] [main/INFO]: Loading 79 mods:
+[12:20:40] [main/INFO]: Loading 79 mods:
 	- armor-stand-editor 2.1.2+1.20.1
 	   |-- common-protection-api 1.0.0
 	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
@@ -96,108 +96,66 @@
 	- spark 1.10.53
 	- starlight 1.1.2+fabric.dbc156f
 	- vmp 0.2.0+beta.7.102
-[17:29:26] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/minecraft-own-cloud-host-github/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[17:29:27] [main/INFO]: Compatibility level set to JAVA_17
-[17:29:27] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 2 override(s) found
-[17:29:27] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
-[17:29:28] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
-[17:29:28] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [vmp]) disables it and children
-[17:29:28] [main/WARN]: Error loading class: com/ishland/c2me/notickvd/common/NoTickChunkSendingInterceptor (java.lang.ClassNotFoundException: com/ishland/c2me/notickvd/common/NoTickChunkSendingInterceptor)
-[17:29:31] [main/WARN]: Method overwrite conflict for method_5800 in carpet-fixes.mixins.json:itemFixes.ItemEntity_lightningKillsDropsMixin from mod carpet-fixes, previously written by carpet.mixins.ItemEntityMixin. Skipping method.
-[17:29:31] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on carpet-shadow.mixins.json:fragility.ItemEntityMixin from mod carpet-shadow::handler$bhg000$carpet-shadow$setEntityForStack exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[17:29:35] [main/WARN]: Method overwrite conflict for getConnection in fabric-networking-api-v1.mixins.json:accessor.ServerPlayNetworkHandlerAccessor from mod fabric-networking-api-v1, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
-[17:29:37] [main/WARN]: @ModifyConstant conflict. Skipping servercore.common.mixins.json:features.misc.MinecraftServerMixin from mod servercore->@ModifyConstant::servercore$modifyAutoSaveInterval(I)I with priority 900, already redirected by carpet-fixes.mixins.json:advanced.MinecraftServer_autosaveDelayMixin from mod carpet-fixes->@ModifyConstant::tickAutoSave(I)I with priority 1000
-[17:29:37] [main/INFO]: Carpet Shadow Loading!
-[17:29:37] [main/INFO]: [ServerCore] Loaded V1.3.9+1.20.1!
-[17:29:37] [main/INFO]: Carpet Shadow Loaded!
-[17:29:37] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:29:39] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on carpet-shadow.mixins.json:crafting.RecipeManagerMixin from mod carpet-shadow::handler$bhd000$carpet-shadow$addShadowRecipe exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[17:29:39] [main/ERROR]: Failed to add settings command for carpet-fixes. It is masking previous command.
-[17:29:39] [main/INFO]: Loaded 7 recipes
-[17:29:40] [main/INFO]: Loaded 1275 advancements
-[17:29:40] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 104 translation keys
-[17:29:40] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.451 ms
-[17:29:40] [Server thread/INFO]: Starting background profiler...
-[17:29:41] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[17:29:41] [Server thread/INFO]: Loading properties
-[17:29:41] [Server thread/INFO]: Default game type: SURVIVAL
-[17:29:41] [Server thread/INFO]: Generating keypair
-[17:29:41] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:29:41] [Server thread/INFO]: Using epoll channel type
-[17:29:41] [Server thread/INFO]: Preparing level "world"
-[17:29:41] [Server thread/INFO]: [CM] Loaded 11 settings from carpet.conf
-[17:29:41] [Server thread/INFO]: [CM] Loaded 4 settings from carpet-fixes.conf
-[17:29:42] [Server thread/INFO]: Changing watch distance to 16
-[17:29:44] [Server thread/INFO]: Changing watch distance to 16
-[17:29:44] [Server thread/INFO]: Changing watch distance to 16
-[17:29:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:29:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:29:46] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[17:29:46] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:29:46] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[17:29:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:29:47] [Worker-Main-3/INFO]: Preparing spawn area: 1%
-[17:29:47] [Worker-Main-2/INFO]: Preparing spawn area: 11%
-[17:29:48] [Worker-Main-2/INFO]: Preparing spawn area: 31%
-[17:29:48] [Worker-Main-2/INFO]: Preparing spawn area: 48%
-[17:29:49] [Worker-Main-1/INFO]: Preparing spawn area: 75%
-[17:29:49] [Server thread/INFO]: Time elapsed: 4682 ms
-[17:29:49] [Server thread/INFO]: Done (7.529s)! For help, type "help"
-[17:31:36] [User Authenticator #1/INFO]: UUID of player _IKaver_ is b9a9d175-b06f-443e-8e71-851f59a57644
-[17:31:37] [Server thread/INFO]: _IKaver_[/127.157.176.89:39459] logged in with entity id 100 at (988.6999999880791, -55.0, 671.5488486612206)
-[17:31:37] [Server thread/INFO]: _IKaver_ joined the game
-[17:31:39] [Server thread/INFO]: Player _IKaver_ joined with a matching carpet client
-[17:31:39] [Server thread/INFO]: Async chunk loading for player _IKaver_ completed
-[17:32:38] [User Authenticator #2/INFO]: UUID of player PabloBusy is 220099ad-c1db-477d-811e-07d46ac81553
-[17:32:38] [Server thread/INFO]: PabloBusy[/127.129.199.64:36715] logged in with entity id 709 at (816.7888982294304, 67.0, 545.2223877151274)
-[17:32:38] [Server thread/INFO]: PabloBusy joined the game
-[17:32:39] [Server thread/INFO]: Async chunk loading for player PabloBusy completed
-[17:33:03] [Server thread/INFO]: <_IKaver_> 63мс
-[17:33:08] [Server thread/INFO]: <_IKaver_> вроде играбельно
-[17:33:09] [Server thread/INFO]: <PabloBusy> дап
-[17:33:13] [Server thread/INFO]: <PabloBusy> в
-[17:33:15] [Server thread/INFO]: <_IKaver_> скажи щас чтонибудь в гс
-[17:33:21] [Server thread/INFO]: <_IKaver_> да
-[17:33:23] [Server thread/INFO]: <_IKaver_> вроде норм
-[17:33:25] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2846@1c40f269, suppressing error
-carpetfixes.helpers.UpdateSuppressionException: Update suppression
-	at net.minecraft.class_7165.handler$zok000$carpet-fixes$catchNeighborUpdates(class_7165.java:534) ~[server-intermediary.jar:?]
-	at net.minecraft.class_7165.method_41708(class_7165.java) ~[server-intermediary.jar:?]
-	at net.minecraft.class_7164.method_41703(class_7164.java:29) ~[server-intermediary.jar:?]
-	at net.minecraft.class_7164.method_41704(class_7164.java:24) ~[server-intermediary.jar:?]
-	at net.minecraft.class_7164.method_41705(class_7164.java:523) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3218.method_8452(class_3218.java:1018) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3218.method_8408(class_3218.java:1433) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1937.redirect$zzk000$carpet$updateNeighborsMaybe(class_1937.java:1050) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1937.method_30092(class_1937.java:246) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1937.method_8652(class_1937.java:213) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1937.method_8650(class_1937.java:282) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14266(class_3225.java:257) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_21717(class_3225.java:228) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14263(class_3225.java:203) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12066(class_3244.java:1083) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2846.method_12361(class_2846.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2846.method_11054(class_2846.java:8) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:782) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:164) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:764) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:758) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:743) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.handler$zbg000$carpet$modifiedRunLoop(MinecraftServer.java:8951) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[17:33:26] [Server thread/INFO]: <_IKaver_> ну ок
-[17:33:31] [Server thread/INFO]: <_IKaver_> тогда завтра играть будем
-[17:33:33] [Server thread/INFO]: <_IKaver_> я пойду уже
-[17:33:39] [Server thread/INFO]: <_IKaver_> уроки надо сделать и т.д.
-[17:33:40] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@251be494, suppressing error
+[12:20:40] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/minecraft-own-cloud-host-github/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[12:20:40] [main/INFO]: Compatibility level set to JAVA_17
+[12:20:40] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 2 override(s) found
+[12:20:40] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
+[12:20:41] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[12:20:41] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [vmp]) disables it and children
+[12:20:41] [main/WARN]: Error loading class: com/ishland/c2me/notickvd/common/NoTickChunkSendingInterceptor (java.lang.ClassNotFoundException: com/ishland/c2me/notickvd/common/NoTickChunkSendingInterceptor)
+[12:20:43] [main/WARN]: Method overwrite conflict for method_5800 in carpet-fixes.mixins.json:itemFixes.ItemEntity_lightningKillsDropsMixin from mod carpet-fixes, previously written by carpet.mixins.ItemEntityMixin. Skipping method.
+[12:20:43] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on carpet-shadow.mixins.json:fragility.ItemEntityMixin from mod carpet-shadow::handler$bhg000$carpet-shadow$setEntityForStack exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[12:20:47] [main/WARN]: Method overwrite conflict for getConnection in fabric-networking-api-v1.mixins.json:accessor.ServerPlayNetworkHandlerAccessor from mod fabric-networking-api-v1, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
+[12:20:49] [main/WARN]: @ModifyConstant conflict. Skipping servercore.common.mixins.json:features.misc.MinecraftServerMixin from mod servercore->@ModifyConstant::servercore$modifyAutoSaveInterval(I)I with priority 900, already redirected by carpet-fixes.mixins.json:advanced.MinecraftServer_autosaveDelayMixin from mod carpet-fixes->@ModifyConstant::tickAutoSave(I)I with priority 1000
+[12:20:49] [main/INFO]: Carpet Shadow Loading!
+[12:20:49] [main/INFO]: [ServerCore] Loaded V1.3.9+1.20.1!
+[12:20:50] [main/INFO]: Carpet Shadow Loaded!
+[12:20:50] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:20:51] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on carpet-shadow.mixins.json:crafting.RecipeManagerMixin from mod carpet-shadow::handler$bhd000$carpet-shadow$addShadowRecipe exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[12:20:51] [main/ERROR]: Failed to add settings command for carpet-fixes. It is masking previous command.
+[12:20:52] [main/INFO]: Loaded 7 recipes
+[12:20:52] [main/INFO]: Loaded 1275 advancements
+[12:20:52] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 104 translation keys
+[12:20:53] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 3.641 ms
+[12:20:53] [Server thread/INFO]: Starting background profiler...
+[12:20:53] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[12:20:53] [Server thread/INFO]: Loading properties
+[12:20:53] [Server thread/INFO]: Default game type: SURVIVAL
+[12:20:53] [Server thread/INFO]: Generating keypair
+[12:20:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:20:53] [Server thread/INFO]: Using epoll channel type
+[12:20:54] [Server thread/INFO]: Preparing level "world"
+[12:20:54] [Server thread/INFO]: [CM] Loaded 11 settings from carpet.conf
+[12:20:54] [Server thread/INFO]: [CM] Loaded 4 settings from carpet-fixes.conf
+[12:20:54] [Server thread/INFO]: Changing watch distance to 16
+[12:20:56] [Server thread/INFO]: Changing watch distance to 16
+[12:20:56] [Server thread/INFO]: Changing watch distance to 16
+[12:20:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:20:59] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:20:59] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:20:59] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:20:59] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:20:59] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:20:59] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:20:59] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:21:00] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:21:00] [Worker-Main-2/INFO]: Preparing spawn area: 27%
+[12:21:01] [Worker-Main-2/INFO]: Preparing spawn area: 84%
+[12:21:01] [Server thread/INFO]: Time elapsed: 4613 ms
+[12:21:01] [Server thread/INFO]: Done (7.362s)! For help, type "help"
+[12:23:34] [User Authenticator #1/INFO]: UUID of player _IKaver_ is b9a9d175-b06f-443e-8e71-851f59a57644
+[12:23:34] [Server thread/INFO]: _IKaver_[/127.157.176.89:53857] logged in with entity id 100 at (994.3000000119209, -56.0, 685.6999999880791)
+[12:23:34] [Server thread/INFO]: _IKaver_ joined the game
+[12:23:35] [Server thread/INFO]: Player _IKaver_ joined with a matching carpet client
+[12:23:35] [Server thread/INFO]: Async chunk loading for player _IKaver_ completed
+[12:27:53] [Server thread/INFO]: [_IKaver_: shadowItemTooltip: true, [Change permanently?]]
+[12:30:10] [Server thread/WARN]: New Shadow Item Created
+[12:30:43] [User Authenticator #2/INFO]: UUID of player PabloBusy is 220099ad-c1db-477d-811e-07d46ac81553
+[12:30:43] [Server thread/INFO]: PabloBusy[/127.129.199.64:50871] logged in with entity id 1987 at (813.3466848441623, 67.0, 545.1478010261193)
+[12:30:43] [Server thread/INFO]: PabloBusy joined the game
+[12:30:43] [Server thread/INFO]: Async chunk loading for player PabloBusy completed
+[12:30:48] [Server thread/WARN]: New Shadow Item Created
+[12:31:40] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@529ebe10, suppressing error
 carpetfixes.helpers.UpdateSuppressionException: Update suppression
 	at net.minecraft.class_7165.handler$zok000$carpet-fixes$catchNeighborUpdates(class_7165.java:534) ~[server-intermediary.jar:?]
 	at net.minecraft.class_7165.method_41708(class_7165.java) ~[server-intermediary.jar:?]
@@ -232,17 +190,745 @@ carpetfixes.helpers.UpdateSuppressionException: Update suppression
 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650) ~[server-intermediary.jar:?]
 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
 	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[17:33:41] [Server thread/INFO]: <_IKaver_> что?
-[17:33:48] [Server thread/INFO]: <_IKaver_> ок
-[17:33:48] [Server thread/INFO]: <_IKaver_> бб
-[17:33:51] [Server thread/INFO]: [_IKaver_: Stopping the server]
-[17:33:51] [Server thread/INFO]: Stopping server
-[17:33:51] [Server thread/INFO]: Saving players
-[17:33:51] [Server thread/INFO]: Saving worlds
-[17:33:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:33:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[17:33:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[17:33:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:33:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:33:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:33:56] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:31:43] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2846@2a6f04f6, suppressing error
+carpetfixes.helpers.UpdateSuppressionException: Update suppression
+	at net.minecraft.class_7165.handler$zok000$carpet-fixes$catchNeighborUpdates(class_7165.java:534) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7165.method_41708(class_7165.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41703(class_7164.java:29) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41704(class_7164.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41705(class_7164.java:523) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8452(class_3218.java:1018) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8408(class_3218.java:1433) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.redirect$zzk000$carpet$updateNeighborsMaybe(class_1937.java:1050) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_30092(class_1937.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8652(class_1937.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8650(class_1937.java:282) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14266(class_3225.java:257) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_21717(class_3225.java:228) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14263(class_3225.java:203) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.method_12066(class_3244.java:1083) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2846.method_12361(class_2846.java:42) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2846.method_11054(class_2846.java:8) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:764) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:115) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:742) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zbg000$carpet$modifiedRunLoop(MinecraftServer.java:8951) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:32:21] [Server thread/WARN]: New Shadow Item Created
+[12:32:46] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@8004fe3, suppressing error
+carpetfixes.helpers.UpdateSuppressionException: Update suppression
+	at net.minecraft.class_7165.handler$zok000$carpet-fixes$catchNeighborUpdates(class_7165.java:534) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7165.method_41708(class_7165.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41703(class_7164.java:29) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41704(class_7164.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41705(class_7164.java:523) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8452(class_3218.java:1018) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8408(class_3218.java:1433) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.redirect$zzk000$carpet$updateNeighborsMaybe(class_1937.java:1050) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_30092(class_1937.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8652(class_1937.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7708(class_1747.java:163) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7712(class_1747.java:80) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7884(class_1747.java:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1799.method_7981(class_1799.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14262(class_3225.java:363) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.method_12046(class_3244.java:1140) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_12547(class_2885.java:34) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_11054(class_2885.java:8) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:764) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:743) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zbg000$carpet$modifiedRunLoop(MinecraftServer.java:8951) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:32:51] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2846@73e7b825, suppressing error
+carpetfixes.helpers.UpdateSuppressionException: Update suppression
+	at net.minecraft.class_7165.handler$zok000$carpet-fixes$catchNeighborUpdates(class_7165.java:534) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7165.method_41708(class_7165.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41703(class_7164.java:29) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41704(class_7164.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41705(class_7164.java:523) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8452(class_3218.java:1018) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8408(class_3218.java:1433) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.redirect$zzk000$carpet$updateNeighborsMaybe(class_1937.java:1050) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_30092(class_1937.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8652(class_1937.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8650(class_1937.java:282) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14266(class_3225.java:257) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_21717(class_3225.java:228) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14263(class_3225.java:203) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.method_12066(class_3244.java:1083) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2846.method_12361(class_2846.java:42) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2846.method_11054(class_2846.java:8) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:764) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:743) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zbg000$carpet$modifiedRunLoop(MinecraftServer.java:8951) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:32:57] [Server thread/INFO]: PabloBusy lost connection: Disconnected
+[12:32:57] [Server thread/INFO]: PabloBusy left the game
+[12:34:18] [User Authenticator #3/INFO]: UUID of player PabloBusy is 220099ad-c1db-477d-811e-07d46ac81553
+[12:34:18] [Server thread/INFO]: PabloBusy[/127.129.199.64:42227] logged in with entity id 3105 at (810.7867641305414, 67.0, 545.5346990300567)
+[12:34:18] [Server thread/INFO]: PabloBusy joined the game
+[12:34:18] [Server thread/INFO]: Async chunk loading for player PabloBusy completed
+[12:34:30] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@5e256532, suppressing error
+carpetfixes.helpers.UpdateSuppressionException: Update suppression
+	at net.minecraft.class_7165.handler$zok000$carpet-fixes$catchNeighborUpdates(class_7165.java:534) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7165.method_41708(class_7165.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41703(class_7164.java:29) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41704(class_7164.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41705(class_7164.java:523) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8452(class_3218.java:1018) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8408(class_3218.java:1433) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.redirect$zzk000$carpet$updateNeighborsMaybe(class_1937.java:1050) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_30092(class_1937.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8652(class_1937.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7708(class_1747.java:163) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7712(class_1747.java:80) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7884(class_1747.java:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1799.method_7981(class_1799.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14262(class_3225.java:363) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.method_12046(class_3244.java:1140) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_12547(class_2885.java:34) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_11054(class_2885.java:8) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:764) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:743) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zbg000$carpet$modifiedRunLoop(MinecraftServer.java:8951) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:34:32] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2846@6e311b1f, suppressing error
+carpetfixes.helpers.UpdateSuppressionException: Update suppression
+	at net.minecraft.class_7165.handler$zok000$carpet-fixes$catchNeighborUpdates(class_7165.java:534) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7165.method_41708(class_7165.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41703(class_7164.java:29) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41704(class_7164.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41705(class_7164.java:523) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8452(class_3218.java:1018) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8408(class_3218.java:1433) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.redirect$zzk000$carpet$updateNeighborsMaybe(class_1937.java:1050) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_30092(class_1937.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8652(class_1937.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8650(class_1937.java:282) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14266(class_3225.java:257) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_21717(class_3225.java:228) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14263(class_3225.java:203) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.method_12066(class_3244.java:1083) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2846.method_12361(class_2846.java:42) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2846.method_11054(class_2846.java:8) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:764) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:743) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zbg000$carpet$modifiedRunLoop(MinecraftServer.java:8951) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:34:39] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@120b947d, suppressing error
+carpetfixes.helpers.UpdateSuppressionException: Update suppression
+	at net.minecraft.class_7165.handler$zok000$carpet-fixes$catchNeighborUpdates(class_7165.java:534) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7165.method_41708(class_7165.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41703(class_7164.java:29) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41704(class_7164.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41705(class_7164.java:523) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8452(class_3218.java:1018) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8408(class_3218.java:1433) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.redirect$zzk000$carpet$updateNeighborsMaybe(class_1937.java:1050) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_30092(class_1937.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8652(class_1937.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7708(class_1747.java:163) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7712(class_1747.java:80) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7884(class_1747.java:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1799.method_7981(class_1799.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14262(class_3225.java:363) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.method_12046(class_3244.java:1140) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_12547(class_2885.java:34) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_11054(class_2885.java:8) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:764) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:743) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zbg000$carpet$modifiedRunLoop(MinecraftServer.java:8951) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:34:59] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@72baf2b6, suppressing error
+carpetfixes.helpers.UpdateSuppressionException: Update suppression
+	at net.minecraft.class_7165.handler$zok000$carpet-fixes$catchNeighborUpdates(class_7165.java:534) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7165.method_41708(class_7165.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41703(class_7164.java:29) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41704(class_7164.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41705(class_7164.java:523) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8452(class_3218.java:1018) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8408(class_3218.java:1433) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.redirect$zzk000$carpet$updateNeighborsMaybe(class_1937.java:1050) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_30092(class_1937.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8652(class_1937.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7708(class_1747.java:163) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7712(class_1747.java:80) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7884(class_1747.java:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1799.method_7981(class_1799.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14262(class_3225.java:363) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.method_12046(class_3244.java:1140) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_12547(class_2885.java:34) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_11054(class_2885.java:8) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:764) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:743) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zbg000$carpet$modifiedRunLoop(MinecraftServer.java:8951) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:35:11] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@482f661, suppressing error
+carpetfixes.helpers.UpdateSuppressionException: Update suppression
+	at net.minecraft.class_7165.handler$zok000$carpet-fixes$catchNeighborUpdates(class_7165.java:534) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7165.method_41708(class_7165.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41703(class_7164.java:29) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41704(class_7164.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41705(class_7164.java:523) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8452(class_3218.java:1018) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8408(class_3218.java:1433) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.redirect$zzk000$carpet$updateNeighborsMaybe(class_1937.java:1050) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_30092(class_1937.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8652(class_1937.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7708(class_1747.java:163) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7712(class_1747.java:80) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7884(class_1747.java:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1799.method_7981(class_1799.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14262(class_3225.java:363) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.method_12046(class_3244.java:1140) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_12547(class_2885.java:34) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_11054(class_2885.java:8) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:764) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:743) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zbg000$carpet$modifiedRunLoop(MinecraftServer.java:8951) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:35:13] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2846@24f9e503, suppressing error
+carpetfixes.helpers.UpdateSuppressionException: Update suppression
+	at net.minecraft.class_7165.handler$zok000$carpet-fixes$catchNeighborUpdates(class_7165.java:534) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7165.method_41708(class_7165.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41703(class_7164.java:29) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41704(class_7164.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41705(class_7164.java:523) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8452(class_3218.java:1018) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8408(class_3218.java:1433) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.redirect$zzk000$carpet$updateNeighborsMaybe(class_1937.java:1050) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_30092(class_1937.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8652(class_1937.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8650(class_1937.java:282) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14266(class_3225.java:257) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_21717(class_3225.java:228) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14263(class_3225.java:203) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.method_12066(class_3244.java:1083) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2846.method_12361(class_2846.java:42) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2846.method_11054(class_2846.java:8) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:764) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:743) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zbg000$carpet$modifiedRunLoop(MinecraftServer.java:8951) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:35:23] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@18a806af, suppressing error
+carpetfixes.helpers.UpdateSuppressionException: Update suppression
+	at net.minecraft.class_7165.handler$zok000$carpet-fixes$catchNeighborUpdates(class_7165.java:534) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7165.method_41708(class_7165.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41703(class_7164.java:29) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41704(class_7164.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41705(class_7164.java:523) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8452(class_3218.java:1018) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8408(class_3218.java:1433) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.redirect$zzk000$carpet$updateNeighborsMaybe(class_1937.java:1050) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_30092(class_1937.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8652(class_1937.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7708(class_1747.java:163) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7712(class_1747.java:80) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7884(class_1747.java:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1799.method_7981(class_1799.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14262(class_3225.java:363) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.method_12046(class_3244.java:1140) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_12547(class_2885.java:34) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_11054(class_2885.java:8) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:764) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:743) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zbg000$carpet$modifiedRunLoop(MinecraftServer.java:8951) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:35:28] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2846@471fb8fd, suppressing error
+carpetfixes.helpers.UpdateSuppressionException: Update suppression
+	at net.minecraft.class_7165.handler$zok000$carpet-fixes$catchNeighborUpdates(class_7165.java:534) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7165.method_41708(class_7165.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41703(class_7164.java:29) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41704(class_7164.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41705(class_7164.java:523) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8452(class_3218.java:1018) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8408(class_3218.java:1433) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.redirect$zzk000$carpet$updateNeighborsMaybe(class_1937.java:1050) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_30092(class_1937.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8652(class_1937.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8650(class_1937.java:282) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14266(class_3225.java:257) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_21717(class_3225.java:228) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14263(class_3225.java:203) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.method_12066(class_3244.java:1083) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2846.method_12361(class_2846.java:42) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2846.method_11054(class_2846.java:8) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:764) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:743) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zbg000$carpet$modifiedRunLoop(MinecraftServer.java:8951) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:35:35] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@53b21b74, suppressing error
+carpetfixes.helpers.UpdateSuppressionException: Update suppression
+	at net.minecraft.class_7165.handler$zok000$carpet-fixes$catchNeighborUpdates(class_7165.java:534) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7165.method_41708(class_7165.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41703(class_7164.java:29) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41704(class_7164.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8492(class_3218.java:1028) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2312.method_9997(class_2312.java:184) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2312.method_9615(class_2312.java:167) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2286.method_9615(class_2286.java:1525) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4970$class_4971.method_26182(class_4970.java:1105) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2818.redirect$zzl000$carpet$onAdded(class_2818.java:1212) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2818.method_12010(class_2818.java:271) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_30092(class_1937.java:228) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8652(class_1937.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7708(class_1747.java:163) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7712(class_1747.java:80) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7884(class_1747.java:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1799.method_7981(class_1799.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14262(class_3225.java:363) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.method_12046(class_3244.java:1140) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_12547(class_2885.java:34) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_11054(class_2885.java:8) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:764) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:743) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zbg000$carpet$modifiedRunLoop(MinecraftServer.java:8951) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:36:04] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@6e18cf72, suppressing error
+carpetfixes.helpers.UpdateSuppressionException: Update suppression
+	at net.minecraft.class_7165.handler$zok000$carpet-fixes$catchNeighborUpdates(class_7165.java:534) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7165.method_41708(class_7165.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41703(class_7164.java:29) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41704(class_7164.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41705(class_7164.java:523) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8508(class_3218.java:1023) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2312.method_9997(class_2312.java:185) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2312.method_9615(class_2312.java:167) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2286.method_9615(class_2286.java:1525) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4970$class_4971.method_26182(class_4970.java:1105) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2818.redirect$zzl000$carpet$onAdded(class_2818.java:1212) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2818.method_12010(class_2818.java:271) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_30092(class_1937.java:228) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8652(class_1937.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7708(class_1747.java:163) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7712(class_1747.java:80) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7884(class_1747.java:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1799.method_7981(class_1799.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14262(class_3225.java:363) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.method_12046(class_3244.java:1140) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_12547(class_2885.java:34) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_11054(class_2885.java:8) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:764) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:743) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zbg000$carpet$modifiedRunLoop(MinecraftServer.java:8951) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:37:10] [Server thread/INFO]: UpdateSuppression) You just caused a server crash in world tick
+[12:37:40] [Server thread/WARN]: New Shadow Item Created
+[12:38:36] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2846@2dd7977c, suppressing error
+carpetfixes.helpers.UpdateSuppressionException: Update suppression
+	at net.minecraft.class_7165.handler$zok000$carpet-fixes$catchNeighborUpdates(class_7165.java:534) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7165.method_41708(class_7165.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41703(class_7164.java:29) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_41410(class_3218.java:1033) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8455(class_1937.java:853) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2586.method_31663(class_2586.java:155) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2586.method_5431(class_2586.java:147) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3722.method_17514(class_3722.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3722.method_17513(class_3722.java:143) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3722.method_5448(class_3722.java:229) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3715.method_17477(class_3715.java:235) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3715.method_9536(class_3715.java:212) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4970$class_4971.method_26197(class_4970.java:1109) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2818.redirect$zzl000$carpet$onRemovedBlock(class_2818.java:1230) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2818.method_12010(class_2818.java:261) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_30092(class_1937.java:228) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8652(class_1937.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8650(class_1937.java:282) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14266(class_3225.java:257) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_21717(class_3225.java:228) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14263(class_3225.java:203) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.method_12066(class_3244.java:1083) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2846.method_12361(class_2846.java:42) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2846.method_11054(class_2846.java:8) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:764) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:743) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zbg000$carpet$modifiedRunLoop(MinecraftServer.java:8951) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:39:52] [Server thread/INFO]: [_IKaver_: Gave 1 [Lectern] to _IKaver_]
+[12:40:25] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@45d310db, suppressing error
+carpetfixes.helpers.UpdateSuppressionException: Update suppression
+	at net.minecraft.class_7165.handler$zok000$carpet-fixes$catchNeighborUpdates(class_7165.java:534) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7165.method_41708(class_7165.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41703(class_7164.java:29) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41704(class_7164.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41705(class_7164.java:523) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8452(class_3218.java:1018) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8408(class_3218.java:1433) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.redirect$zzk000$carpet$updateNeighborsMaybe(class_1937.java:1050) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_30092(class_1937.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8652(class_1937.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7708(class_1747.java:163) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7712(class_1747.java:80) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7884(class_1747.java:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1799.method_7981(class_1799.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14262(class_3225.java:363) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.method_12046(class_3244.java:1140) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_12547(class_2885.java:34) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_11054(class_2885.java:8) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:764) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:743) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zbg000$carpet$modifiedRunLoop(MinecraftServer.java:8951) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:40:31] [Server thread/ERROR]: POI data mismatch: never registered at class_2338{x=815, y=67, z=545}
+[12:40:52] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2846@10088ddb, suppressing error
+carpetfixes.helpers.UpdateSuppressionException: Update suppression
+	at net.minecraft.class_7165.handler$zok000$carpet-fixes$catchNeighborUpdates(class_7165.java:534) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7165.method_41708(class_7165.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41703(class_7164.java:29) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_41410(class_3218.java:1033) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8455(class_1937.java:853) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2586.method_31663(class_2586.java:155) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2586.method_5431(class_2586.java:147) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3722.method_17514(class_3722.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3722.method_17513(class_3722.java:143) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3722.method_5448(class_3722.java:229) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3715.method_17477(class_3715.java:235) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3715.method_9536(class_3715.java:212) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4970$class_4971.method_26197(class_4970.java:1109) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2818.redirect$zzl000$carpet$onRemovedBlock(class_2818.java:1230) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2818.method_12010(class_2818.java:261) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_30092(class_1937.java:228) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8652(class_1937.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8650(class_1937.java:282) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14266(class_3225.java:257) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_21717(class_3225.java:228) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14263(class_3225.java:203) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.method_12066(class_3244.java:1083) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2846.method_12361(class_2846.java:42) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2846.method_11054(class_2846.java:8) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:764) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:743) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zbg000$carpet$modifiedRunLoop(MinecraftServer.java:8951) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:44:32] [Server thread/WARN]: New Shadow Item Created
+[12:44:55] [Server thread/INFO]: PabloBusy lost connection: Disconnected
+[12:44:55] [Server thread/INFO]: PabloBusy left the game
+[12:46:26] [User Authenticator #4/INFO]: UUID of player PabloBusy is 220099ad-c1db-477d-811e-07d46ac81553
+[12:46:26] [Server thread/INFO]: PabloBusy[/127.129.199.64:43225] logged in with entity id 7354 at (819.7402866290365, 68.25220334025373, 542.6017985320228)
+[12:46:26] [Server thread/INFO]: PabloBusy joined the game
+[12:46:26] [Server thread/INFO]: Async chunk loading for player PabloBusy completed
+[12:47:03] [Server thread/WARN]: New Shadow Item Created
+[12:47:25] [Server thread/INFO]: [_IKaver_: ]
+[12:47:25] [Server thread/INFO]: [_IKaver_: shadowItemIdSize]
+[12:47:25] [Server thread/INFO]: [_IKaver_: Shadow Items Id Length]
+[12:47:25] [Server thread/INFO]: [_IKaver_: Tags: [shadow_items]]
+[12:47:25] [Server thread/INFO]: [_IKaver_: current value: 1 (modified value)]
+[12:47:25] [Server thread/INFO]: [_IKaver_:  ]]
+[12:47:29] [Server thread/INFO]: [_IKaver_: shadowItemIdSize: 8, [Change permanently?]]
+[12:47:31] [Server thread/INFO]: [_IKaver_: Rule shadowItemIdSize will now default to 8]
+[12:51:12] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@5d83e5d5, suppressing error
+carpetfixes.helpers.UpdateSuppressionException: Update suppression
+	at net.minecraft.class_7165.handler$zok000$carpet-fixes$catchNeighborUpdates(class_7165.java:534) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7165.method_41708(class_7165.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41703(class_7164.java:29) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41704(class_7164.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41705(class_7164.java:523) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8452(class_3218.java:1018) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8408(class_3218.java:1433) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.redirect$zzk000$carpet$updateNeighborsMaybe(class_1937.java:1050) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_30092(class_1937.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8652(class_1937.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2428.method_9534(class_2428.java:103) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4970$class_4971.method_26174(class_4970.java:1133) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.redirect$zeb000$carpet$activateWithOptionalCactus(class_3225.java:1029) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14262(class_3225.java:343) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.method_12046(class_3244.java:1140) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_12547(class_2885.java:34) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_11054(class_2885.java:8) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:764) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:743) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zbg000$carpet$modifiedRunLoop(MinecraftServer.java:8951) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:51:13] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2846@3a965dec, suppressing error
+carpetfixes.helpers.UpdateSuppressionException: Update suppression
+	at net.minecraft.class_7165.handler$zok000$carpet-fixes$catchNeighborUpdates(class_7165.java:534) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7165.method_41708(class_7165.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41703(class_7164.java:29) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41704(class_7164.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41705(class_7164.java:523) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8508(class_3218.java:1023) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2312.method_9997(class_2312.java:185) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2312.method_9536(class_2312.java:177) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4970$class_4971.method_26197(class_4970.java:1109) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2818.redirect$zzl000$carpet$onRemovedBlock(class_2818.java:1230) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2818.method_12010(class_2818.java:261) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_30092(class_1937.java:228) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8652(class_1937.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8650(class_1937.java:282) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14266(class_3225.java:257) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_21717(class_3225.java:228) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14263(class_3225.java:178) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.method_12066(class_3244.java:1083) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2846.method_12361(class_2846.java:42) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2846.method_11054(class_2846.java:8) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:764) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:743) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zbg000$carpet$modifiedRunLoop(MinecraftServer.java:8951) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:51:37] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2846@411beac9, suppressing error
+carpetfixes.helpers.UpdateSuppressionException: Update suppression
+	at net.minecraft.class_7165.handler$zok000$carpet-fixes$catchNeighborUpdates(class_7165.java:534) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7165.method_41708(class_7165.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41703(class_7164.java:29) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41704(class_7164.java:24) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7164.method_41705(class_7164.java:523) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8452(class_3218.java:1018) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8408(class_3218.java:1433) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.redirect$zzk000$carpet$updateNeighborsMaybe(class_1937.java:1050) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_30092(class_1937.java:246) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8652(class_1937.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8650(class_1937.java:282) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14266(class_3225.java:257) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_21717(class_3225.java:228) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14263(class_3225.java:178) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.method_12066(class_3244.java:1083) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2846.method_12361(class_2846.java:42) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2846.method_11054(class_2846.java:8) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:764) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:743) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zbg000$carpet$modifiedRunLoop(MinecraftServer.java:8951) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:52:52] [Server thread/INFO]: Portal not located for entity class_3222['_IKaver_'/100, l='ServerLevel[world]', x=801.84, y=67.00, z=543.93] at null
+[12:52:58] [Server thread/INFO]: Portal not located for entity class_3222['_IKaver_'/100, l='ServerLevel[world]', x=802.63, y=67.00, z=543.42] at null
+[12:53:00] [Server thread/INFO]: Portal not located for entity class_3222['PabloBusy'/7354, l='ServerLevel[world]', x=802.11, y=67.00, z=544.47] at null
+[12:53:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2213ms or 44 ticks behind
+[12:53:08] [Server thread/INFO]: Portal located for entity class_3222['PabloBusy'/7354, l='ServerLevel[world]', x=802.68, y=67.00, z=543.75] at TeleportTarget{pitch=24.863234, position=(95.5, 73.0, 64.75294954176775), velocity=(0.0, -0.0784000015258789, 0.0), yaw=168.22278}
+[12:53:08] [Server thread/INFO]: PabloBusy has made the advancement [We Need to Go Deeper]
+[12:53:14] [Server thread/INFO]: Portal located for entity class_3222['PabloBusy'/7354, l='ServerLevel[world]', x=96.28, y=73.00, z=64.31] at TeleportTarget{pitch=23.501337, position=(802.5, 67.0, 543.3078920277071), velocity=(0.0022926874672017697, -0.0784000015258789, -0.0019195875215771313), yaw=72.893265}
+[12:53:32] [Server thread/INFO]: Portal located for entity class_3222['_IKaver_'/100, l='ServerLevel[world]', x=95.40, y=73.00, z=64.42] at TeleportTarget{pitch=5.690279, position=(802.5, 67.0, 543.4218749249119), velocity=(0.0, -0.0784000015258789, 0.0), yaw=14.694124}
+[12:53:32] [Server thread/INFO]: Portal located for entity class_3222['PabloBusy'/7354, l='ServerLevel[world]', x=95.55, y=73.00, z=65.70] at TeleportTarget{pitch=16.568228, position=(802.5, 67.0, 544.6999969482422), velocity=(0.0, -0.0784000015258789, 0.0), yaw=161.88336}
+[12:54:01] [Server thread/INFO]: Villager class_1646['Villager'/9666, l='ServerLevel[world]', x=783.46, y=63.00, z=612.70] died, message: 'Villager suffocated in a wall'
+[12:54:53] [Server thread/INFO]: Portal located for entity class_3222['_IKaver_'/100, l='ServerLevel[world]', x=802.54, y=67.00, z=543.30] at TeleportTarget{pitch=18.709719, position=(95.5, 73.0, 64.30432322795991), velocity=(0.0, -0.0784000015258789, 0.0), yaw=-9.857941}
+[12:54:53] [Server thread/INFO]: Portal located for entity class_3222['PabloBusy'/7354, l='ServerLevel[world]', x=802.59, y=67.00, z=544.70] at TeleportTarget{pitch=17.76477, position=(95.5, 73.0, 65.69999998807907), velocity=(0.0, -0.0784000015258789, 0.0), yaw=-177.64484}
+[13:01:44] [Server thread/INFO]: Portal located for entity class_3222['_IKaver_'/100, l='ServerLevel[world]', x=95.36, y=73.00, z=65.10] at TeleportTarget{pitch=13.829727, position=(802.5, 67.0, 544.0958976819886), velocity=(0.0, -0.0784000015258789, 0.0), yaw=-18.929932}
+[13:02:04] [Server thread/INFO]: Portal located for entity class_3222['_IKaver_'/100, l='ServerLevel[world]', x=802.92, y=67.00, z=544.06] at TeleportTarget{pitch=6.403651, position=(95.5, 73.0, 65.06413846334158), velocity=(0.0, -0.0784000015258789, 0.0), yaw=142.0514}
+[13:04:33] [Server thread/INFO]: _IKaver_ has made the advancement [A Terrible Fortress]
+[13:04:34] [Server thread/INFO]: PabloBusy has made the advancement [A Terrible Fortress]
+[13:08:33] [Server thread/INFO]: _IKaver_ has made the advancement [Into Fire]
+[13:08:40] [Server thread/INFO]: PabloBusy has made the advancement [Into Fire]
+[13:09:42] [Server thread/INFO]: PabloBusy has made the advancement [Ice Bucket Challenge]
+[13:11:48] [Server thread/INFO]: PabloBusy was slain by Wither Skeleton
+[13:11:49] [Server thread/INFO]: Async chunk loading for player PabloBusy completed
+[13:11:57] [Server thread/INFO]: PabloBusy lost connection: Disconnected
+[13:11:57] [Server thread/INFO]: PabloBusy left the game
+[13:13:15] [Server thread/INFO]: _IKaver_ lost connection: Disconnected
+[13:13:15] [Server thread/INFO]: _IKaver_ left the game
+[15:29:34] [Server thread/INFO]: Stopping the server
+[15:29:34] [Server thread/INFO]: Stopping server
+[15:29:34] [Server thread/INFO]: Saving players
+[15:29:34] [Server thread/INFO]: Saving worlds
+[15:29:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:29:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[15:29:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[15:29:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:29:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:29:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:29:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
